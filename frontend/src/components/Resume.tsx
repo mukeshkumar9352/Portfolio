@@ -34,12 +34,21 @@ const Resume = () => {
               </p>
               
               <div className="flex flex-wrap justify-center gap-4">
-                <button className="px-6 py-3 bg-sky-500 hover:bg-sky-600 text-white font-bold rounded-lg flex items-center gap-2 transition-all transform hover:scale-105">
+                <a 
+                  href="/mkCV.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-sky-500 hover:bg-sky-600 text-white font-bold rounded-lg flex items-center gap-2 transition-all transform hover:scale-105"
+                >
                   <Eye size={20} /> Preview CV
-                </button>
-                <button className="px-6 py-3 bg-white/5 hover:bg-white/10 text-white border border-white/10 font-bold rounded-lg flex items-center gap-2 transition-all transform hover:scale-105">
+                </a>
+                <a 
+                  href="/mkCV.pdf" 
+                  download="Mukesh_Kumar_Singh_Resume.pdf"
+                  className="px-6 py-3 bg-white/5 hover:bg-white/10 text-white border border-white/10 font-bold rounded-lg flex items-center gap-2 transition-all transform hover:scale-105"
+                >
                   <FileDown size={20} /> Download CV
-                </button>
+                </a>
               </div>
             </div>
 

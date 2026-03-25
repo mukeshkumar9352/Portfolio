@@ -32,12 +32,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link to="hero" smooth={true} duration={500} className="cursor-pointer">
-              <span className="text-3xl font-bold bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent italic">
-                AS
-              </span>
             </Link>
           </div>
-          
+
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {navLinks.map((link) => (

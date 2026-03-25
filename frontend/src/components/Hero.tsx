@@ -26,7 +26,7 @@ const Hero = () => {
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-400 mb-6 font-medium">
               <Typewriter
-                words={['Software Developer', 'Java Specialist', 'Data Enthusiast']}
+                words={['Software Developer', 'Data Analysis']}
                 loop={true}
                 cursor
                 cursorStyle="_"
@@ -46,11 +46,13 @@ const Hero = () => {
                   View Projects <ExternalLink size={20} />
                 </button>
               </Link>
-              <Link to="resume" smooth={true} duration={500}>
-                <button className="px-8 py-3 bg-transparent border-2 border-sky-500 text-sky-400 hover:bg-sky-500/10 font-semibold rounded-full transition-all transform hover:scale-105 flex items-center gap-2">
-                  Download Resume <FileText size={20} />
-                </button>
-              </Link>
+              <a 
+                href="/mkCV.pdf" 
+                download="Mukesh_Kumar_Singh_Resume.pdf"
+                className="px-8 py-3 bg-transparent border-2 border-sky-500 text-sky-400 hover:bg-sky-500/10 font-semibold rounded-full transition-all transform hover:scale-105 flex items-center gap-2"
+              >
+                Download Resume <FileText size={20} />
+              </a>
             </div>
 
             <div className="flex gap-6">

@@ -6,16 +6,16 @@ const Footer = () => {
   return (
     <footer className="bg-slate-950 border-t border-white/5 py-12 px-4">
       <div className="max-w-7xl mx-auto flex flex-col items-center">
-        <Link to="hero" smooth={true} duration={500} className="cursor-pointer mb-6">
+        {/* <Link to="hero" smooth={true} duration={500} className="cursor-pointer mb-6">
           <span className="text-3xl font-bold bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent italic">
             MS
           </span>
-        </Link>
+        </Link> */}
 
-        <p className="text-gray-400 text-center mb-8 max-w-md">
+        {/* <p className="text-gray-400 text-center mb-8 max-w-md">
           © {new Date().getFullYear()} मुकेश कुमार सिंह (Mukesh Kumar Singh). All rights reserved.
           Aspiring Software Developer & Data Scientist.
-        </p>
+        </p> */}
 
         <div className="flex gap-6 mb-8">
           {[
