@@ -36,7 +36,7 @@ const Hero = () => {
               />
             </h2>
             <p className="max-w-xl text-gray-400 text-lg md:text-xl mb-10 leading-relaxed">
-              B.Tech Computer Science student at Lovely Professional University. 
+              B.Tech Computer Science student at Lovely Professional University.
               Passionate about building scalable applications and solving complex problems using Java and Python.
             </p>
 
@@ -46,8 +46,8 @@ const Hero = () => {
                   View Projects <ExternalLink size={20} />
                 </button>
               </Link>
-              <a 
-                href="/mkCV.pdf" 
+              <a
+                href="/mkCV.pdf"
                 download="Mukesh_Kumar_Singh_Resume.pdf"
                 className="px-8 py-3 bg-transparent border-2 border-sky-500 text-sky-400 hover:bg-sky-500/10 font-semibold rounded-full transition-all transform hover:scale-105 flex items-center gap-2"
               >
@@ -94,24 +94,24 @@ const Hero = () => {
             <div className="relative inline-block group">
               {/* Animated Gradient Border */}
               <div className="absolute -inset-2 bg-gradient-to-r from-sky-400 via-blue-500 to-indigo-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-              
+
               {/* Inner Glow Effect */}
               <div className="absolute inset-0 rounded-full bg-sky-500/10 animate-pulse"></div>
-              
+
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300, damping: 10 }}
                 className="relative"
               >
-                <img
-                  src="/Mypic.png" 
+                {/* <img
+                  src="/MINE.png"
                   alt="Mukesh Kumar Singh"
-                  className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full border-4 border-slate-900 object-cover bg-slate-800 shadow-2xl"
+                  className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full border-4 border-slate-900 object-cover bg-black shadow-2xl"
                   onError={(e: any) => {
                     e.target.src = "https://api.dicebear.com/7.x/avataaars/svg?seed=Mukesh";
                   }}
-                />
-                
+                /> */}
+
                 {/* Subtle Overlay Shine */}
                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent via-white/5 to-transparent pointer-events-none"></div>
               </motion.div>

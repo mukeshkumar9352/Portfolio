@@ -13,7 +13,7 @@ const Achievements = () => {
   ];
 
   return (
-    <section id="achievements" className="section-padding bg-slate-900/30">
+    <section id="achievements" className="section-padding bg-black/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
